@@ -7,7 +7,22 @@ defmodule FindType.Mixfile do
       version: "0.1.0",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
-      deps: deps()
+      deps: deps(),
+      description: "Simple package to find the type of an item in Elixir",
+      # ExDoc stuff.
+      name: "FindType",
+      source_url: "https://github.com/JoeBanks13/find_type",
+      docs: [main: "FindType",
+             extras: ["README.md"]],
+      # Hex stuff
+      package: [
+        name: "find_type",
+        licenses: ["MIT"],
+        maintainers: [
+          "Joseph Banks <joseph@josephbanks.me>"
+        ],
+        links: %{"GitHub" => "https://github.com/JoeBanks13/find_type"}
+      ]
     ]
   end
 
