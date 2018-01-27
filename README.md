@@ -1,5 +1,8 @@
 # FindType
 
+[![Hex.pm version](https://img.shields.io/hexpm/v/find_type.svg)]()
+[![Hex.pm license](https://img.shields.io/hexpm/l/find_type.svg)]()
+
 ## What is this?
 
 A simple library I made because I got bored of having to open up IEx and find the type of something.
@@ -27,7 +30,15 @@ That is pretty much it.
 
 ## Installation
 
-For now, just add this to your `mix.exs`
+To grab from Hex.pm add this to your `mix.exs`:
+
+```elixir
+defp deps() do
+    [{:find_type, "~> 0.1.0"}]
+end
+```
+
+Or, from GitHub:
 
 ```elixir
 defp deps() do
